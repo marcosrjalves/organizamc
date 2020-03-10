@@ -1,0 +1,24 @@
+<!--[main]-->
+<div id="app">
+
+ <table class="table table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Email</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr v-for="item in itens">
+      <th scope="row">{{item.id}}</th>
+      <td>{{item.name}}</td>
+      <td>{{item.email}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.js"></script>
+<script src="app/view/listar.js"></script>
+<!--[/main]-->
