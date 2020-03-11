@@ -1,1 +1,5 @@
-app/config/
+app/config/communication.ini
+app/config/log.ini
+app/config/organizamc.ini
+app/config/permission.ini
+app/config/sample.ini
