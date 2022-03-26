@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "0d194e312591083170753bb0813247d3",
     "content-hash": "3707f5d5d3982048459a8dd0ce521576",
     "packages": [
         {
@@ -47,7 +46,7 @@
             ],
             "description": "BaconQrCode is a QR code generator for PHP.",
             "homepage": "https://github.com/Bacon/BaconQrCode",
-            "time": "2016-01-09 22:55:35"
+            "time": "2016-01-09T22:55:35+00:00"
         },
         {
             "name": "dompdf/dompdf",
@@ -109,7 +108,7 @@
             ],
             "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
             "homepage": "https://github.com/dompdf/dompdf",
-            "time": "2017-09-14 01:36:24"
+            "time": "2017-09-14T01:36:24+00:00"
         },
         {
             "name": "phenx/php-font-lib",
@@ -146,7 +145,7 @@
             ],
             "description": "A library to read, parse, export and make subsets of different types of font files.",
             "homepage": "https://github.com/PhenX/php-font-lib",
-            "time": "2017-09-13 16:14:37"
+            "time": "2017-09-13T16:14:37+00:00"
         },
         {
             "name": "phenx/php-svg-lib",
@@ -186,7 +185,7 @@
             ],
             "description": "A library to read, parse and export to PDF SVG files.",
             "homepage": "https://github.com/PhenX/php-svg-lib",
-            "time": "2017-05-24 10:07:27"
+            "time": "2017-05-24T10:07:27+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -251,7 +250,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2017-09-14 16:47:12"
+            "time": "2017-09-14T16:47:12+00:00"
         },
         {
             "name": "phprtflite/phprtflite",
@@ -284,7 +283,7 @@
                 }
             ],
             "description": "PHPRtfLite is an API enabling developers to create rtf documents with php.",
-            "time": "2014-07-04 19:43:18"
+            "time": "2014-07-04T19:43:18+00:00"
         },
         {
             "name": "picqer/php-barcode-generator",
@@ -353,20 +352,20 @@
                 "svg",
                 "upc"
             ],
-            "time": "2017-09-28 19:23:19"
+            "time": "2017-09-28T19:23:19+00:00"
         },
         {
             "name": "sabberworm/php-css-parser",
-            "version": "8.1.0",
+            "version": "8.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
-                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef"
+                "reference": "b3683fba4e30963908265b039190a0e88f74c6fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/850cbbcbe7fbb155387a151ea562897a67e242ef",
-                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef",
+                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/b3683fba4e30963908265b039190a0e88f74c6fb",
+                "reference": "b3683fba4e30963908265b039190a0e88f74c6fb",
                 "shasum": ""
             },
             "require": {
@@ -397,7 +396,11 @@
                 "parser",
                 "stylesheet"
             ],
-            "time": "2016-07-19 19:14:21"
+            "support": {
+                "issues": "https://github.com/sabberworm/PHP-CSS-Parser/issues",
+                "source": "https://github.com/sabberworm/PHP-CSS-Parser/tree/8.1.1"
+            },
+            "time": "2020-06-01T09:09:10+00:00"
         },
         {
             "name": "tburry/pquery",
@@ -449,7 +452,7 @@
                 "ganon",
                 "php"
             ],
-            "time": "2016-01-14 20:55:00"
+            "time": "2016-01-14T20:55:00+00:00"
         }
     ],
     "packages-dev": [],
@@ -459,5 +462,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
